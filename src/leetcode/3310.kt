@@ -1,3 +1,5 @@
+package leetcode
+
 import kotlin.math.abs
 
 fun scoreOfString(s: String): Int {

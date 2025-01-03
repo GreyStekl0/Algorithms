@@ -1,3 +1,5 @@
+package leetcode
+
 fun finalValueAfterOperations(operations: Array<String>): Int {
     var x = 0
     for (i in operations) {

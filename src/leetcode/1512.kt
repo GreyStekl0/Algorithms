@@ -1,3 +1,5 @@
+package leetcode
+
 fun numIdenticalPairs(nums: IntArray): Int {
     var result = 0
     for (i in nums.indices){

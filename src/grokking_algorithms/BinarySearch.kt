@@ -4,7 +4,7 @@ fun binarySearch(nums: IntArray, item: Int): Int? {
     var min = 0
     var max = nums.size - 1
     while (min <= max) {
-        var mid = (min + max) / 2
+        var mid = min + (max-min) / 2
         var guess = nums[mid]
         if (guess == item) return mid
         else if (guess > item) max = mid - 1

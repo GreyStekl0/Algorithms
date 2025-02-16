@@ -2,7 +2,7 @@ package leetcode
 
 import kotlin.math.abs
 
-//fun minOperations(boxes: String): IntArray {
+// fun minOperations(boxes: String): IntArray {
 //    var answer = IntArray(boxes.length)
 //    for (i in 0 until boxes.length) {
 //        var count = 0
@@ -14,7 +14,7 @@ import kotlin.math.abs
 //        answer[i] = count
 //    }
 //    return answer
-//}
+// }
 
 fun minOperations(boxes: String): IntArray {
     val ballIndexes = ArrayList<Int>()
@@ -39,5 +39,5 @@ fun minOperations(boxes: String): IntArray {
 
 fun main() {
     val boxes = "110"
-    println(minOperations(boxes).joinToString(", ")) //1,1,3
+    println(minOperations(boxes).joinToString(", ")) // 1,1,3
 }

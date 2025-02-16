@@ -1,6 +1,9 @@
 package leetcode
 
-fun shuffle(nums: IntArray, n: Int): IntArray {
+fun shuffle(
+    nums: IntArray,
+    n: Int,
+): IntArray {
 //    val shuffle = IntArray(nums.size)
 //    var index = 0
 //    for (i in 0 until nums.size - n){

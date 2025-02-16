@@ -1,9 +1,7 @@
 package leetcode
 
-fun defangIPaddr(address: String): String {
-    return address.replace(".","[.]")
-}
+fun defangIPaddr(address: String): String = address.replace(".", "[.]")
 
-fun main(){
+fun main() {
     println(defangIPaddr("1.1.1.1"))
 }

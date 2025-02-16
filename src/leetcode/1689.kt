@@ -1,9 +1,7 @@
 package leetcode
 
-fun minPartitions(n: String): Int {
-    return n.maxOf { it - '0' }
-}
+fun minPartitions(n: String): Int = n.maxOf { it - '0' }
 
-fun main(){
+fun main() {
     println(minPartitions("32"))
 }

@@ -1,4 +1,4 @@
-package grokking_algorithms
+package sorting
 
 fun quickSort(nums: IntArray): IntArray {
     if (nums.size < 2) return nums

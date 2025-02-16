@@ -1,9 +1,9 @@
-package grokking_algorithms
+package sorting
 
 fun bubbleSort(nums: IntArray): IntArray {
     val sorted = nums.copyOf()
     var temp = 0
-    for (j in sorted.size-1 downTo 1) {
+    for (j in sorted.size - 1 downTo 1) {
         for (i in 0 until j) {
             if (sorted[i] > sorted[i + 1]) {
                 temp = sorted[i]

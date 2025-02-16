@@ -1,5 +1,3 @@
 package leetcode
 
-fun minimumOperations(nums: IntArray): Int {
-    return nums.count { it % 3 != 0 }
-}
+fun minimumOperations(nums: IntArray): Int = nums.count { it % 3 != 0 }

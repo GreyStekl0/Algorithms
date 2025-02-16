@@ -1,4 +1,4 @@
-package grokking_algorithms
+package grokkingalgorithms
 
 // Граф
 private val graph: MutableMap<String, MutableMap<String, Int>> = HashMap()
@@ -29,16 +29,14 @@ fun main() {
     parents["b"] = "start"
     parents["fin"] = null
 
-
     println("Cost from the start to each node:")
     println(dijkstraAlgorithm(costs, parents))
 }
 
 fun dijkstraAlgorithm(
     costs: MutableMap<String, Int>,
-    parents: MutableMap<String, String?>
+    parents: MutableMap<String, String?>,
 ): MutableMap<String, Int> {
-
     var node = findLowestCostNode(costs)
     while (node != null) {
         val cost = costs[node]

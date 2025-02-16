@@ -1,7 +1,8 @@
-package grokking_algorithms
+package grokkingalgorithms
 
 import java.io.File
-import java.util.*
+import java.util.LinkedList
+import java.util.Queue
 
 fun listFiles(directory: File) {
     val queue: Queue<File> = LinkedList()

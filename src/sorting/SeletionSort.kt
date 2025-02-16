@@ -1,4 +1,4 @@
-package grokking_algorithms
+package sorting
 
 import kotlin.collections.joinToString
 

@@ -4,9 +4,10 @@ fun isAnagram(
     s: String,
     t: String,
 ): Boolean {
-    val sortS = s.toCharArray().apply { sort() }
-    val sortT = t.toCharArray().apply { sort() }
-    return (sortS.contentEquals(sortT))
+    val countMap = IntArray(26)
+    for (i in s) countMap[i - 'a']++
+    for (j in t) countMap[j - 'a']--
+    return countMap.all { it == 0 }
 }
 
 fun main() {
